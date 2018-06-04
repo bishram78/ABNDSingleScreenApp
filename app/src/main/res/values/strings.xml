@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">abndBCard</string>
+    <string name="txt_tv_abc_banner_desc">Red cross yoga center banner</string>
+    <string name="txt_tv_abc_red">RED</string>
+    <string name="txt_tv_cross">CROSS</string>
+    <string name="txt_tv_yoga_center">YOGA CENTER</string>
+    <string name="txt_tv_keep_body_fit"><![CDATA[Keep your body Fit&Fresh]]></string>
+    <string name="txt_tv_morning">Morning</string>
+    <string name="txt_tv_morning_time">5:00-8:00</string>
+    <string name="txt_tv_evening">Evening</string>
+    <string name="txt_tv_evening_time">5:00-7:00</string>
+</resources>
