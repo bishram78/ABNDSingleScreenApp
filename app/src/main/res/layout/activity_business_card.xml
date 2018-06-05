@@ -73,9 +73,9 @@
                 android:textSize="@dimen/keep_body_fit_txt_size" />
 
             <LinearLayout
+                style="@style/LinearLayoutHorizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/LinearLayoutHorizontal"
                 android:gravity="center">
 
                 <LinearLayout
@@ -91,32 +91,28 @@
                         android:text="@string/txt_tv_morning" />
 
                     <TextView
+                        style="@style/TextStyleWDP"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_tv_morning_time"
-                        style="@style/TextStyleAll" />
+                        android:text="@string/txt_tv_morning_time" />
                 </LinearLayout>
 
                 <View
+                    style="@style/ViewStyleAll"
                     android:layout_width="1px"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginTop="4dp"
-                    android:background="#55000000" />
+                    android:layout_height="match_parent" />
 
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:contentDescription="working hour"
+                    android:contentDescription="@string/text_iv_desc_working_hour"
                     android:src="@drawable/mi_access_time_black_24px" />
 
                 <View
+                    style="@style/ViewStyleAll"
                     android:layout_width="1px"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginTop="4dp"
-                    android:background="#55000000" />
+                    android:layout_height="match_parent" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -131,190 +127,173 @@
                         android:text="@string/txt_tv_evening" />
 
                     <TextView
+                        style="@style/TextStyleWDP"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_tv_evening_time"
-                        style="@style/TextStyleAll" />
+                        android:text="@string/txt_tv_evening_time" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 style="@style/LinearLayoutVertical"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="42dp"
-                    android:text="Established" />
+                    android:text="@string/txt_tv_date_launched" />
 
                 <TextView
+                    style="@style/TextStyleAll"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="16dp"
                     android:drawableStart="@drawable/mi_business_black_24px"
-                    android:text="24 of January, 2018"
-                    android:textColor="#000"
-                    android:textSize="18sp" />
+                    android:text="@string/txt_tv_abc_date_24_06_18" />
             </LinearLayout>
 
             <LinearLayout
+                style="@style/LinearLayoutVertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="36dp"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="16dp"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="42dp"
-                    android:text="Contact your trainer" />
+                    android:text="@string/txt_tv_abc_cyt" />
 
                 <TextView
+                    style="@style/TextStyleAll"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:autoLink="phone"
-                    android:drawablePadding="16dp"
                     android:drawableStart="@drawable/mi_phone_black_24px"
-                    android:text="+91 77 62 935350"
-                    android:textColor="#000"
-                    android:textColorLink="#000"
-                    android:textSize="18sp" />
+                    android:text="@string/txt_tv_abc_contact_no" />
             </LinearLayout>
 
             <LinearLayout
+                style="@style/LinearLayoutVertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="36dp"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="16dp"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="42dp"
-                    android:text="You can even mail" />
+                    android:text="@string/txt_tv_abc_ycem" />
 
                 <TextView
+                    style="@style/TextStyleAll"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:autoLink="email"
-                    android:drawablePadding="16dp"
                     android:drawableStart="@drawable/mi_mail_outline_black_24px"
-                    android:text="bishram.munda78@gmail.com"
-                    android:textColor="#000"
-                    android:textColorLink="#000"
-                    android:textSize="18sp" />
+                    android:text="@string/txt_tv_abc_email_address" />
             </LinearLayout>
 
             <LinearLayout
+                style="@style/LinearLayoutVertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="36dp"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="16dp"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="42dp"
-                    android:text="Visit official site" />
+                    android:text="@string/txt_tv_abc_vo_site" />
 
                 <TextView
+                    style="@style/TextStyleAll"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:autoLink="web"
-                    android:drawablePadding="16dp"
                     android:drawableStart="@drawable/mi_language_black_24px"
-                    android:text="www.rcyogafits.com"
-                    android:textColor="#000"
-                    android:textColorLink="#000"
-                    android:textSize="18sp" />
+                    android:text="@string/txt_tv_abc_web_add" />
             </LinearLayout>
 
             <LinearLayout
+                style="@style/LinearLayoutVertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="36dp"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="16dp"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="42dp"
-                    android:text="Reach out to us" />
+                    android:text="@string/txt_tv_abc_rot_us" />
 
                 <TextView
+                    style="@style/TextStyleAll"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:autoLink="map"
-                    android:drawablePadding="16dp"
                     android:drawableStart="@drawable/mi_location_on_black_24px"
-                    android:text="20/202, Supalsai, Near Commissioner Office, Seraikela Road, Chaibasa, W. Singhbhum, Jharkhand, India\nPIN-833201"
-                    android:textColor="#000"
-                    android:textColorLink="#000"
-                    android:textSize="18sp" />
+                    android:text="@string/txt_tv_abc_office_add" />
             </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height_1_px"
+                android:background="@color/viewBlackColor"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="36dp"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center">
 
-                <ImageView
+                <TextView
+                    style="@style/TextStyleLink"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/google_icon_logo_by_vexels_36px" />
+                    android:drawableTop="@drawable/google_icon_logo_by_vexels_36px"
+                    android:text="@string/txt_tv_abc_rcyogagp" />
 
                 <View
+                    style="@style/ViewStyleAll"
                     android:layout_width="1px"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginTop="4dp"
-                    android:background="#55000000" />
+                    android:layout_height="match_parent" />
 
-                <ImageView
+                <TextView
+                    style="@style/TextStyleLink"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/facebook_logo_36px" />
+                    android:drawableTop="@drawable/facebook_logo_36px"
+                    android:text="@string/txt_tv_abc_rcyogafb" />
 
                 <View
+                    style="@style/ViewStyleAll"
                     android:layout_width="1px"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginTop="4dp"
-                    android:background="#55000000" />
+                    android:layout_height="match_parent" />
 
-                <ImageView
+                <TextView
+                    style="@style/TextStyleLink"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/twitter_logo_36px" />
+                    android:drawableTop="@drawable/twitter_logo_36px"
+                    android:text="@string/txt_tv_abc_rcyogatwr" />
 
                 <View
+                    style="@style/ViewStyleAll"
                     android:layout_width="1px"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginTop="4dp"
-                    android:background="#55000000" />
+                    android:layout_height="match_parent" />
 
-                <ImageView
+                <TextView
+                    style="@style/TextStyleLink"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/instagram_logo_36px" />
+                    android:drawableTop="@drawable/instagram_logo_36px"
+                    android:text="@string/txt_tv_abc_rcyogainsta" />
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
