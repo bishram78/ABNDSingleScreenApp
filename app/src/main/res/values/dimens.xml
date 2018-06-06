@@ -11,4 +11,11 @@
     <dimen name="view_width_178_dp">178dp</dimen>
     <dimen name="view_height_1_px">1px</dimen>
     <dimen name="keep_body_fit_txt_size">18sp</dimen>
+    <dimen name="padding_abc_iv_rc_banner">64dp</dimen>
+    <dimen name="pb_abc_ll_main_container">24dp</dimen>
+    <dimen name="lh_abc_v_rc_divider">48dp</dimen>
+    <dimen name="lme_abc_v_rc_divider">8dp</dimen>
+    <dimen name="lms_abc_v_rc_divider">8dp</dimen>
+    <dimen name="lmt_abc_v_rc_divider">24dp</dimen>
+    <dimen name="lmt_abc_tv_cross">4dp</dimen>
 </resources>

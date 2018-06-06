@@ -2,332 +2,234 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FADAC1"
+    android:background="@color/colorPrimaryDark"
     android:scrollbars="none">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/pb_abc_ll_main_container">
 
-        <ImageView
-            android:id="@+id/id_ma_iv_banner"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="72dp"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/txt_tv_abc_banner_desc"
-            android:scaleType="centerCrop"
-            android:src="@drawable/red_cross_banner_1200_px" />
+            android:layout_height="wrap_content">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/id_ma_iv_banner"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            android:contentDescription="@string/txt_tv_abc_banner_desc"
-            android:src="@drawable/history_of_yoga_360_px"/>
-
-        <View
-            android:id="@+id/id_abc_v_rc_divider"
-            android:layout_width="1dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:background="#FF0202"
-            android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:id="@+id/id_ma_tv_rc_red"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toStartOf="@id/id_abc_v_rc_divider"
-            android:layout_toLeftOf="@id/id_abc_v_rc_divider"
-            android:layout_marginTop="@dimen/red_txt_margin_top"
-            android:fontFamily="serif"
-            android:text="@string/txt_tv_abc_red"
-            android:textColor="@color/redTxtGreenColor"
-            android:textSize="56sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/id_ma_tv_rc_cross"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/id_abc_v_rc_divider"
-            android:layout_toRightOf="@id/id_abc_v_rc_divider"
-            android:layout_marginTop="12dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="@string/txt_tv_cross"
-            android:textColor="#FF0202"
-            android:textSize="56sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="272dp"
-            android:layout_centerHorizontal="true"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/yoga_cntr_txt_margin_top"
-                android:text="@string/txt_tv_yoga_center"
-                android:textColor="@color/yogaCenterLightBrownColor"
-                android:textSize="@dimen/yoga_cntr_txt_size_medium"
-                android:textStyle="bold" />
-
-            <View
-                android:layout_width="@dimen/view_width_178_dp"
-                android:layout_height="@dimen/view_height_1_px"
-                android:layout_gravity="center_horizontal"
-                android:background="@color/viewBlackColor" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/txt_tv_keep_body_fit"
-                android:textColor="@color/keepBodyFitTxtColorBlue"
-                android:textSize="@dimen/keep_body_fit_txt_size" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/id_ma_iv_banner"
-            android:orientation="vertical">
-
-
-            <LinearLayout
-                style="@style/LinearLayoutHorizontal"
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center">
+                android:adjustViewBounds="true"
+                android:padding="@dimen/padding_abc_iv_rc_banner"
+                android:contentDescription="@string/txt_tv_abc_banner_desc"
+                android:scaleType="centerCrop"
+                android:src="@drawable/red_cross_banner_1200_px" />
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.5"
-                    android:gravity="center"
-                    android:orientation="vertical">
+            <View
+                android:id="@+id/id_abc_v_rc_divider"
+                android:layout_width="1dp"
+                android:layout_height="@dimen/lh_abc_v_rc_divider"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="@dimen/lme_abc_v_rc_divider"
+                android:layout_marginStart="@dimen/lms_abc_v_rc_divider"
+                android:layout_marginTop="@dimen/lmt_abc_v_rc_divider"
+                android:background="@color/bkg_abc_v_rc_divider" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/txt_tv_morning" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/id_abc_v_rc_divider"
+                android:fontFamily="serif"
+                android:text="@string/txt_abc_tv_red"
+                android:textColor="@color/tcAbcTvRed"
+                android:textSize="56sp"
+                android:textStyle="bold" />
 
-                    <TextView
-                        style="@style/TextStyleWDP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/txt_tv_morning_time" />
-                </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/lmt_abc_tv_cross"
+                android:layout_toEndOf="@id/id_abc_v_rc_divider"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/txt_abc_tv_cross"
+                android:textColor="#FF0202"
+                android:textSize="52sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/id_abc_tv_fit_fresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/txt_tv_keep_body_fit"
+                android:textColor="#006e99"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/id_abc_tv_fit_fresh"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <View
-                    style="@style/ViewStyleAll"
-                    android:layout_width="1px"
-                    android:layout_height="match_parent" />
+                    android:layout_width="28dp"
+                    android:layout_height="1dp"
+                    android:background="@color/viewBlackColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/txt_tv_yoga_center"
+                    android:textColor="#FF0202"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="1dp"
+                    android:background="@color/viewBlackColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="100dp"
+                android:layout_marginStart="56dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Morning time"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:00-8:00"
+                android:textSize="18sp"
+                android:textColor="#000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="end"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="100dp"
+                android:layout_marginEnd="56dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Morning time" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5:00-8:00"
+                    android:textSize="18sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/history_of_yoga_360_px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88FADAC1" />
+
+            <TextView
+                android:id="@+id/id_abc_tv_training_address"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/txt_tv_abc_training_add"
+                android:textColor="#007bff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/id_abc_tv_training_address"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="18dp"
+                android:text="Contact: +91 77 62 935350"
+                android:textColor="#8c00ff"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id_abc_tv_training_address"
+                android:layout_marginEnd="48dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:contentDescription="@string/text_iv_desc_working_hour"
-                    android:src="@drawable/mi_access_time_black_24px" />
+                    android:src="@drawable/google_plus_logo_36px" />
 
                 <View
-                    style="@style/ViewStyleAll"
-                    android:layout_width="1px"
-                    android:layout_height="match_parent" />
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/viewBlackColor" />
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.5"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/txt_tv_evening" />
-
-                    <TextView
-                        style="@style/TextStyleWDP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/txt_tv_evening_time" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                style="@style/LinearLayoutVertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="42dp"
-                    android:text="@string/txt_tv_date_launched" />
-
-                <TextView
-                    style="@style/TextStyleAll"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/mi_business_black_24px"
-                    android:text="@string/txt_tv_abc_date_24_06_18" />
-            </LinearLayout>
-
-            <LinearLayout
-                style="@style/LinearLayoutVertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="42dp"
-                    android:text="@string/txt_tv_abc_cyt" />
-
-                <TextView
-                    style="@style/TextStyleAll"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:autoLink="phone"
-                    android:drawableStart="@drawable/mi_phone_black_24px"
-                    android:text="@string/txt_tv_abc_contact_no" />
-            </LinearLayout>
-
-            <LinearLayout
-                style="@style/LinearLayoutVertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="42dp"
-                    android:text="@string/txt_tv_abc_ycem" />
-
-                <TextView
-                    style="@style/TextStyleAll"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:autoLink="email"
-                    android:drawableStart="@drawable/mi_mail_outline_black_24px"
-                    android:text="@string/txt_tv_abc_email_address" />
-            </LinearLayout>
-
-            <LinearLayout
-                style="@style/LinearLayoutVertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="42dp"
-                    android:text="@string/txt_tv_abc_vo_site" />
-
-                <TextView
-                    style="@style/TextStyleAll"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:autoLink="web"
-                    android:drawableStart="@drawable/mi_language_black_24px"
-                    android:text="@string/txt_tv_abc_web_add" />
-            </LinearLayout>
-
-            <LinearLayout
-                style="@style/LinearLayoutVertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="42dp"
-                    android:text="@string/txt_tv_abc_rot_us" />
-
-                <TextView
-                    style="@style/TextStyleAll"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:autoLink="map"
-                    android:drawableStart="@drawable/mi_location_on_black_24px"
-                    android:text="@string/txt_tv_abc_office_add" />
-            </LinearLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/view_height_1_px"
-                android:layout_marginEnd="36dp"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/viewBlackColor" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:layout_marginTop="8dp"
-                android:gravity="center">
-
-                <TextView
-                    style="@style/TextStyleLink"
+                <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/google_icon_logo_by_vexels_36px"
-                    android:text="@string/txt_tv_abc_rcyogagp" />
+                    android:src="@drawable/facebook_logo_36px" />
 
                 <View
-                    style="@style/ViewStyleAll"
-                    android:layout_width="1px"
-                    android:layout_height="match_parent" />
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/viewBlackColor" />
 
-                <TextView
-                    style="@style/TextStyleLink"
+                <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/facebook_logo_36px"
-                    android:text="@string/txt_tv_abc_rcyogafb" />
+                    android:src="@drawable/twitter_logo_36px" />
 
                 <View
-                    style="@style/ViewStyleAll"
-                    android:layout_width="1px"
-                    android:layout_height="match_parent" />
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/viewBlackColor" />
 
-                <TextView
-                    style="@style/TextStyleLink"
+                <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/twitter_logo_36px"
-                    android:text="@string/txt_tv_abc_rcyogatwr" />
-
-                <View
-                    style="@style/ViewStyleAll"
-                    android:layout_width="1px"
-                    android:layout_height="match_parent" />
-
-                <TextView
-                    style="@style/TextStyleLink"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:drawableTop="@drawable/instagram_logo_36px"
-                    android:text="@string/txt_tv_abc_rcyogainsta" />
+                    android:src="@drawable/instagram_logo_36px" />
             </LinearLayout>
-        </LinearLayout>
-    </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
 </ScrollView>

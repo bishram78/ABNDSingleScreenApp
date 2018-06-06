@@ -3,7 +3,7 @@
     <string name="txt_tv_abc_banner_desc">Red cross yoga center banner</string>
     <string name="txt_tv_abc_red">RED</string>
     <string name="txt_tv_cross">CROSS</string>
-    <string name="txt_tv_yoga_center">YOGA CENTER</string>
+    <string name="txt_tv_yoga_center">YOGA CLUB\'</string>
     <string name="txt_tv_keep_body_fit"><![CDATA[Keep your body Fit&Fresh]]></string>
     <string name="txt_tv_morning">Morning</string>
     <string name="txt_tv_morning_time">5:00&#8211;8:00</string>
@@ -18,10 +18,12 @@
     <string name="txt_tv_abc_email_address">bishram.munda78@gmail.com</string>
     <string name="txt_tv_abc_vo_site">Visit official site</string>
     <string name="txt_tv_abc_rot_us">Reach out to us</string>
-    <string name="txt_tv_abc_office_add">20/202, Supalsai, Near Commissioner Office, Seraikela Road, Chaibasa, W. Singhbhum, Jharkhand, India</string>
+    <string name="txt_tv_abc_training_add">20/202, Supalsai, Near Commissioner Office, Seraikela Road, Chaibasa, W. Singhbhum, Jharkhand, India</string>
     <string name="txt_tv_abc_web_add">www.rcyogafits.com</string>
     <string name="txt_tv_abc_rcyogagp">/rcyogag+</string>
     <string name="txt_tv_abc_rcyogafb">\@rcyogafb</string>
     <string name="txt_tv_abc_rcyogatwr">\@rcyogatwr</string>
     <string name="txt_tv_abc_rcyogainsta">/rcyogainsta</string>
+    <string name="txt_abc_tv_red">RED</string>
+    <string name="txt_abc_tv_cross">CROSS</string>
 </resources>

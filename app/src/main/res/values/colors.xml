@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#c3c3c3</color>
-    <color name="colorPrimaryDark">#c3c3c3</color>
+    <color name="colorPrimaryDark">#FADAC1</color>
     <color name="colorAccent">#FF4081</color>
     <color name="redTxtGreenColor">#FF0202</color>
     <color name="crossTxtYellowColor">#FF0202</color>
     <color name="yogaCenterLightBrownColor">#c66000</color>
     <color name="viewBlackColor">#000</color>
     <color name="keepBodyFitTxtColorBlue">#0004ff</color>
+    <color name="bkg_abc_v_rc_divider">#FF0202</color>
+    <color name="tcAbcTvRed">#FF0202</color>
 </resources>
