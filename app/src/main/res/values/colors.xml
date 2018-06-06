@@ -3,8 +3,8 @@
     <color name="colorPrimary">#c3c3c3</color>
     <color name="colorPrimaryDark">#c3c3c3</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="redTxtGreenColor">#098b00</color>
-    <color name="crossTxtYellowColor">#ffe100</color>
+    <color name="redTxtGreenColor">#FF0202</color>
+    <color name="crossTxtYellowColor">#FF0202</color>
     <color name="yogaCenterLightBrownColor">#c66000</color>
     <color name="viewBlackColor">#000</color>
     <color name="keepBodyFitTxtColorBlue">#0004ff</color>
