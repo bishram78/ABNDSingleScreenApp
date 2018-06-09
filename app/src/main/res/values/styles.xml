@@ -8,40 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="LinearLayoutABC">
-        <item name="android:layout_marginStart">36dp</item>
-        <item name="android:layout_marginEnd">36dp</item>
-        <item name="android:layout_marginTop">16dp</item>
-    </style>
-
-    <style name="LinearLayoutHorizontal" parent="LinearLayoutABC">
-        <item name="android:orientation">horizontal</item>
-    </style>
-
-    <style name="LinearLayoutVertical" parent="LinearLayoutABC">
+    <style name="LLScheduleStyle">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/lmb_abc_ll_schedule_wrap</item>
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="TextStyleWDP">
-        <item name="android:textColor">#000</item>
-        <item name="android:textSize">18sp</item>
+    <style name="LLScheduleStyle.Start" parent="LLScheduleStyle">
+        <item name="android:layout_marginStart">@dimen/lms_abc_ll_schedule_wrap</item>
     </style>
 
-    <style name="TextStyleAll" parent="TextStyleWDP">
-        <item name="android:drawablePadding">16dp</item>
-        <item name="android:textColorLink">#000</item>
-        <item name="android:background">@null</item>
+    <style name="LLScheduleStyle.End" parent="LLScheduleStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">@dimen/lme_abc_ll_schedule_wrap</item>
+        <item name="android:gravity">end</item>
     </style>
 
-    <style name="ViewStyleAll">
-        <item name="android:layout_marginTop">4dp</item>
-        <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:background">#55000000</item>
+    <style name="TextScheduleStyle">
+        <item name="android:textColor">@color/tcAbcTvSchedule</item>
+        <item name="android:textSize">@dimen/ts_abc_tv_schedule</item>
     </style>
 
-    <style name="TextStyleLink">
-        <item name="android:gravity">center</item>
-        <item name="android:textSize">11sp</item>
-        <item name="android:textColor">#000</item>
+    <style name="ViewDividerSLinkStyle">
+        <item name="android:layout_marginBottom">@dimen/lmb_abc_v_link</item>
+        <item name="android:layout_marginTop">@dimen/lmt_abc_v_link</item>
+        <item name="android:background">@color/viewBlackColor</item>
     </style>
 </resources>

@@ -18,4 +18,25 @@
     <dimen name="lms_abc_v_rc_divider">8dp</dimen>
     <dimen name="lmt_abc_v_rc_divider">24dp</dimen>
     <dimen name="lmt_abc_tv_cross">4dp</dimen>
+    <dimen name="ts_abc_tv_kbf">16sp</dimen>
+    <dimen name="lw_abc_v_dash">28dp</dimen>
+    <dimen name="lh_abc_v_dash">1dp</dimen>
+    <dimen name="lme_abc_tv_yc">8dp</dimen>
+    <dimen name="lms_abc_tv_yc">8dp</dimen>
+    <dimen name="ts_abc_tv_yc">28sp</dimen>
+    <dimen name="lmb_abc_ll_schedule_wrap">100dp</dimen>
+    <dimen name="lms_abc_ll_schedule_wrap">56dp</dimen>
+    <dimen name="ts_abc_tv_red">56sp</dimen>
+    <dimen name="ts_abc_tv_cross">52sp</dimen>
+    <dimen name="ts_abc_tv_schedule">18sp</dimen>
+    <dimen name="lme_abc_ll_schedule_wrap">56dp</dimen>
+    <dimen name="lw_abc_tv_office_address">240dp</dimen>
+    <dimen name="ts_abc_tv_office_address">18sp</dimen>
+    <dimen name="lmb_abc_tv_office_contact">18dp</dimen>
+    <dimen name="ts_abc_tv_office_add">18sp</dimen>
+    <dimen name="lme_abc_ll_s_link_wrap">48dp</dimen>
+    <dimen name="lms_abc_ll_s_link_wrap">48dp</dimen>
+    <dimen name="lmt_abc_ll_s_link_wrap">24dp</dimen>
+    <dimen name="lmb_abc_v_link">4dp</dimen>
+    <dimen name="lmt_abc_v_link">4dp</dimen>
 </resources>

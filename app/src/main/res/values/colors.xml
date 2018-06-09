@@ -6,8 +6,15 @@
     <color name="redTxtGreenColor">#FF0202</color>
     <color name="crossTxtYellowColor">#FF0202</color>
     <color name="yogaCenterLightBrownColor">#c66000</color>
-    <color name="viewBlackColor">#000</color>
+    <color name="viewBlackColor">#33000000</color>
     <color name="keepBodyFitTxtColorBlue">#0004ff</color>
     <color name="bkg_abc_v_rc_divider">#FF0202</color>
     <color name="tcAbcTvRed">#FF0202</color>
+    <color name="colorAbcTvKbf">#006e99</color>
+    <color name="colorAbcTvYc">#FF0202</color>
+    <color name="colorAbcTvCross">#FF0202</color>
+    <color name="tcAbcTvSchedule">#000</color>
+    <color name="colorBkgView">#88FADAC1</color>
+    <color name="colorAbcTvOfficeAdd">#007bff</color>
+    <color name="colorAbcOfficeContact">#8c00ff</color>
 </resources>
